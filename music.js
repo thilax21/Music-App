@@ -22,16 +22,16 @@ for(var a=0; a<noOfButtons; a++){
 function makeSound (key){
 switch(key){
     case "a":
-        var song1=new Audio("../music/songs/bring-me-back-283196.mp3")
+        var song1=new Audio(`songs/song-english-edm-296526.mp3`)
         song1.play();
          break;
 
     case "b":
-            var song2=new Audio("../music/songs/song-english-edm-296526.mp3")
+            var song2=new Audio(`songs/song-english-edm-296526.mp3`)
             song2.play();
              break;
     case "c":
-        var song3=new Audio("../music/songs/song-english-edm-296526.mp3")
+        var song3=new Audio(`songs/song-english-edm-296526.mp3`)
         song3.play();
          break;
    
